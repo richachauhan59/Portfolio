@@ -270,7 +270,10 @@ class Intro extends React.Component {
   if (name !== 'resume') {
    document.getElementById(name).scrollIntoView();
   }
- }
+  else if(name === 'resume') {
+    window.open('https://drive.google.com/file/d/1v0gEJAc_Rb8Ar0VeCctqW-B8jjG40Q-5/view?usp=sharing', '_blank');
+  } 
+}
 
  render() {
   return (
