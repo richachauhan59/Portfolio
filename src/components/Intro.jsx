@@ -294,7 +294,7 @@ class Intro extends React.Component {
        data-aos-easing="ease-out-back"
       >
        <ImageWrapper>
-        <img src="dp2.jpg" alt="A geeky guy" />
+        <img src={process.env.PUBLIC_URL + '/dp2.jpg'} /> 
        </ImageWrapper>
       </div>
       <div

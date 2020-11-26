@@ -91,7 +91,7 @@ function ProjectItem(props) {
  return (
   <Card data-aos="zoom-in-down" style={{height:"450px"}}>
    <a target="_blank" rel="noopener noreferrer" href={demo}>
-    <img src={img} alt={alt} />
+    <img  src={process.env.PUBLIC_URL + img} alt={alt} />
    </a>
    <div className="card-body">
     <h4>{heading}</h4>

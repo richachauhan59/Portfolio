@@ -98,7 +98,7 @@ function Libraries() {
      data-aos-duration="1000"
      data-aos-easing="ease-in-out"
     >
-     <img src="html5.svg" alt="" />
+     <img src={process.env.PUBLIC_URL + '/html5.svg'} /> 
      <figcaption>HTML5</figcaption>
     </figure>
     <figure
@@ -106,15 +106,15 @@ function Libraries() {
      data-aos-duration="1000"
      data-aos-easing="ease-in-out"
     >
-     <img style={{ transform: 'scale(1.25)' }} src="css3.svg" alt="" />
-     <figcaption>CSS3</figcaption>
+    <img style={{ transform: 'scale(1.25)' }} src={process.env.PUBLIC_URL + '/css3.svg'} alt="" />
+    <figcaption>CSS3</figcaption>
     </figure>
     <figure
      data-aos="fade-down-left"
      data-aos-duration="1000"
      data-aos-easing="ease-in-out"
     >
-     <img src="js.svg" alt="" />
+     <img src={process.env.PUBLIC_URL + '/js.svg'} alt="" />
      <figcaption>JAVASCRIPT</figcaption>
     </figure>
     <figure
@@ -122,7 +122,7 @@ function Libraries() {
      data-aos-duration="1000"
      data-aos-easing="ease-in-out"
     >
-     <img src="bootstrap.svg" alt="" />
+     <img src={process.env.PUBLIC_URL + '/bootstrap.svg'} alt="" />
      <figcaption>BOOTSTRAP</figcaption>
     </figure>
     <figure
@@ -130,7 +130,7 @@ function Libraries() {
      data-aos-duration="1000"
      data-aos-easing="ease-in-out"
     >
-     <img src="mongodb.svg" alt="" />
+     <img src={process.env.PUBLIC_URL + '/mongodb.svg'} alt="" />
      <figcaption>MONGODB</figcaption>
     </figure>
     <figure
@@ -138,7 +138,7 @@ function Libraries() {
      data-aos-duration="1000"
      data-aos-easing="ease-in-out"
     >
-     <img src="expressjs.svg" alt="" />
+     <img src={process.env.PUBLIC_URL + '/expressjs.svg'} alt="" />
      <figcaption>EXPRESS</figcaption>
     </figure>
     <figure
@@ -146,7 +146,7 @@ function Libraries() {
      data-aos-duration="1000"
      data-aos-easing="ease-in-out"
     >
-     <img style={{ transform: 'scale(1.15)' }} src="react.svg" alt="" />
+     <img style={{ transform: 'scale(1.15)' }} src={process.env.PUBLIC_URL + '/react.svg'} alt="" />
      <figcaption>REACT</figcaption>
     </figure>
     <figure
@@ -154,7 +154,7 @@ function Libraries() {
      data-aos-duration="1000"
      data-aos-easing="ease-in-out"
     >
-     <img src="nodejs.svg" alt="" />
+     <img src={process.env.PUBLIC_URL + '/nodejs.svg'} alt="" />
      <figcaption>NODE.JS</figcaption>
     </figure>
     <figure
@@ -162,7 +162,7 @@ function Libraries() {
      data-aos-duration="1000"
      data-aos-easing="ease-in-out"
     >
-     <img src="redux.svg" alt="" />
+     <img src={process.env.PUBLIC_URL + '/redux.svg'} alt="" />
      <figcaption>Redux</figcaption>
     </figure>
     <figure
@@ -170,7 +170,7 @@ function Libraries() {
      data-aos-duration="1000"
      data-aos-easing="ease-in-out"
     >
-     <img src="reactRouter.svg" alt="" />
+     <img src={process.env.PUBLIC_URL + '/reactRouter.svg'} alt="" />
      <figcaption>Router</figcaption>
     </figure>
     <figure
@@ -178,7 +178,7 @@ function Libraries() {
      data-aos-duration="1000"
      data-aos-easing="ease-in-out"
     >
-     <img style={{ transform: 'scale(1.15)' }} src="materialUI.svg" alt="" />
+     <img style={{ transform: 'scale(1.15)' }} src={process.env.PUBLIC_URL + '/materialUI.svg'} alt="" />
      <figcaption>Material UI</figcaption>
     </figure>
     <figure
@@ -186,7 +186,7 @@ function Libraries() {
      data-aos-duration="1000"
      data-aos-easing="ease-in-out"
     >
-     <img src="git.svg" alt="" />
+     <img src={process.env.PUBLIC_URL + '/git.svg'} alt="" />
      <figcaption>GIT</figcaption>
     </figure>
    </Icons>

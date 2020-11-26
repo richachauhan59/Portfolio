@@ -13,17 +13,17 @@ function Contact() {
                 <div className="my-4 flex-center">
 
                   
-                    <a href="https://twitter.com/RichaCh00294122"><i
+                    <a href="https://twitter.com/RichaCh00294122" target="_blank"><i
                             className="fab fa-twitter fa-lg text-white p-4  fa-2x"> </i></a>
              
-                    <a href="https://github.com/richachauhan59"><i
+                    <a href="https://github.com/richachauhan59" target="_blank"><i
                             className="fab fa-github fa-lg text-white p-4  fa-2x"> </i></a>
                    
-                    <a href="https://www.linkedin.com/in/richa-chauhan-b158a2180/"><i
+                    <a href="https://www.linkedin.com/in/richa-chauhan-b158a2180/" target="_blank"><i
                             className="fab fa-linkedin-in fa-lg text-white p-4  fa-2x"> </i></a>
 
                    
-                    <a href="https://www.hackerrank.com/richachauhan2019?hr_r=1"><i
+                    <a href="https://www.hackerrank.com/richachauhan2019?hr_r=1" target="_blank"><i
                             className="fab fa-hackerrank fa-lg text-white p-4 fa-2x"> </i></a>
                 </div>
             </div>
