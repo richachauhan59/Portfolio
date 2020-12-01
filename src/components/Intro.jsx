@@ -287,7 +287,7 @@ class Intro extends React.Component {
       data-aos-duration="1500"
       data-aos-easing="ease-out-back"
      >
-      Hello,
+      Hey,
      </h1>
      <div id="about-me">
       <div
