@@ -40,12 +40,12 @@
         "github": "https://github.com/richachauhan59/React-ToDo-List"
     },
     {
-        "img": "/Hackathon.png",
-        "alt": "Rent Easy",
-        "heading": "Rent Easy",
-        "description": "Rent Easy is build by using revv-sales services and API in 48hrs of Hackathon.",
-        "demo": "https://github.com/AlokKothiyal1/Masai_Hackathon",
-        "github": "https://github.com/AlokKothiyal1/Masai_Hackathon"
+        "img": "/apacheprofile.png",
+        "alt": "apache students",
+        "heading": "Apache Students",
+        "description": "Apache Students Profile cards with CRUD functionality",
+        "demo": "https://github.com/richachauhan59/apacheStudentsProfile",
+        "github": "https://github.com/richachauhan59/apacheStudentsProfile"
     }
 
 ]
